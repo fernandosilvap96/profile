@@ -747,11 +747,11 @@ input, textarea, select{
 }
 
 .contact .redes-sociais{
-    margin-top: 25px;
     in-height: 100vh;
     display: -ms-flexbox;
     display: flex;
     text-align: center;
+    margin: 20px 0px 5px;
 }
 
 .contact .redes-sociais a{
@@ -762,7 +762,7 @@ input, textarea, select{
     text-align: center;
     line-height: 45px;
     color: #ffffff;
-    margin: 0 5px;
+    margin: 20px 0px 5px;
     border-radius: 50%;
     text-decoration: none;
     -webkit-transition: all 0.3 easy; 
