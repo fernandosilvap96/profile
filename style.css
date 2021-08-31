@@ -746,7 +746,7 @@ input, textarea, select{
     font-weight: 400;
 }
 
-.redes-sociais a{
+.contato .redes-sociais a{
     height: 45px;
     width: 45px;
     background-color: var(--color-blue);
@@ -762,7 +762,7 @@ input, textarea, select{
 }
 
 /*obs.: Usei a animação no webkit tmb, porque ele é um ícone, */
-.redes-sociais a:hover{
+.contato .redes-sociais a:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
