@@ -746,6 +746,10 @@ input, textarea, select{
     font-weight: 400;
 }
 
+.contato .redes-sociais{
+    margin-top: 25px;
+}
+
 .contato .redes-sociais a{
     height: 45px;
     width: 45px;
@@ -765,6 +769,7 @@ input, textarea, select{
 .contato .redes-sociais a:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
 }
 
 /*RESPONSIVIDADE*/
