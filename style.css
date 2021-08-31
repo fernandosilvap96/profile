@@ -745,8 +745,13 @@ input, textarea, select{
     margin: 0;
     font-weight: 400;
 }
+
 .redes-sociais{
     margin-top: 25px;
+    in-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
 }
 
 .redes-sociais a{
