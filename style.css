@@ -720,33 +720,7 @@ input, textarea, select{
     color: var(--color-text);
     margin: 0;
     font-weight: 400;
-}
 
-.contact .redes-sociais{
-    padding-left: 50px;
-}
-
-.contact .redes-sociais a{
-    height: 45px;
-    width: 45px;
-    background-color: var(--color-blue);
-    display: inline-block;
-    text-align: center;
-    line-height: 45px;
-    color: #ffffff;
-    margin: 0 5px;
-    border-radius: 50%;
-    text-decoration: none;
-    -webkit-transition: all 0.3 easy; 
-    transition: all 0.3 easy;
-    padding-left: 50px;
-}
-
-/*obs.: Usei a animação no webkit tmb, porque ele é um ícone, */
-.contato .redes-sociais a:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
 }
 
 /*RESPONSIVIDADE*/
