@@ -747,11 +747,9 @@ input, textarea, select{
 }
 
 .contact .redes-sociais{
-    in-height: 100vh;
     display: -ms-flexbox;
     display: flex;
     text-align: center;
-    margin: 20px 0px 5px;
 }
 
 .contact .redes-sociais a{
@@ -781,9 +779,7 @@ input, textarea, select{
     .lateral {
         width: 270px;
     }
-
 }
-
 
 @media (max-width:1199px){
 
@@ -861,7 +857,6 @@ input, textarea, select{
 }
 
 @media (max-width: 767px){
-    .contact .contact-form .col-6,
     .service .service-item-inner,
     .sobre .sobre-conteudo .educacao,
     .sobre .sobre-conteudo .experiencia, 
@@ -934,7 +929,7 @@ input, textarea, select{
         width: 70%;
          display: inline-block;
      }
-     .home .intro .redes-sociais a {
+     .contact .redes-sociais a {
         height: 35px;
         width: 35px;
         line-height: 35px;
