@@ -722,11 +722,11 @@ input, textarea, select{
     font-weight: 400;
 }
 
-.contato .redes-sociais{
-    margin-left: 50px;
+.contact .redes-sociais{
+    padding-left: 50px;
 }
 
-.contato .redes-sociais a{
+.contact .redes-sociais a{
     height: 45px;
     width: 45px;
     background-color: var(--color-blue);
@@ -738,7 +738,8 @@ input, textarea, select{
     border-radius: 50%;
     text-decoration: none;
     -webkit-transition: all 0.3 easy; 
-    transition: all 0.3 easy; 
+    transition: all 0.3 easy;
+    padding-left: 50px;
 }
 
 /*obs.: Usei a animação no webkit tmb, porque ele é um ícone, */
