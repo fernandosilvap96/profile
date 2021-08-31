@@ -5,10 +5,10 @@
 
 /* VARIAVÉIS DE COR*/
 :root {
-    --color-blue:#1a1aff;
+    --color-blue:#19A3F7;
     --color-text:#504e70;
     --color-title:#302e4d;
-    --color-grey:#d1d1e0;
+    --color-grey:#e3e3e3;
     --color-timeline:#fdf9ff;
     --color-border: #d4d4e3;
   }
@@ -361,6 +361,30 @@ input, textarea, select{
     line-height: 30px;
 }
 
+.home .intro .redes-sociais{
+    margin-top: 25px;
+}
+
+.home .intro .redes-sociais a{
+    height: 45px;
+    width: 45px;
+    background-color: var(--color-blue);
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    color: #ffffff;
+    margin: 0 5px;
+    border-radius: 50%;
+    text-decoration: none;
+    -webkit-transition: all 0.3 easy; 
+    transition: all 0.3 easy; 
+}
+
+/*obs.: Usei a animação no webkit tmb, porque ele é um ícone, */
+.home .intro .redes-sociais a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 /*FIM DA HOME*/
 
 /* PAGINA SOBRE */
@@ -720,7 +744,54 @@ input, textarea, select{
     color: var(--color-text);
     margin: 0;
     font-weight: 400;
+}
 
+.contact .contact-form{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact .contact-form .col-6{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.contact .contact-form .col-12{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact .contact-form .form-item{
+    margin-bottom: 30px;
+}
+
+.contact .contact-form .form-item .form-control{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid var(--color-border);
+    padding: 10px 25px;
+    font-size: 16px;
+    color: var(--color-text);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.contact .contact-form .form-item .form-control:focus{
+    -webkit-box-shadown: 0 0 20px rgba(48, 46, 77, 0.15);
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.contact .contact-form .form-item textarea.form-control{
+    height: 140px;
+}
+
+.contact .contact-form .btn{
+    height: 50px;
+    padding: 0 50px;
 }
 
 /*RESPONSIVIDADE*/
@@ -729,7 +800,9 @@ input, textarea, select{
     .lateral {
         width: 270px;
     }
+
 }
+
 
 @media (max-width:1199px){
 
@@ -807,6 +880,7 @@ input, textarea, select{
 }
 
 @media (max-width: 767px){
+    .contact .contact-form .col-6,
     .service .service-item-inner,
     .sobre .sobre-conteudo .educacao,
     .sobre .sobre-conteudo .experiencia, 
@@ -879,7 +953,7 @@ input, textarea, select{
         width: 70%;
          display: inline-block;
      }
-     .redes-sociais a {
+     .home .intro .redes-sociais a {
         height: 35px;
         width: 35px;
         line-height: 35px;
