@@ -746,13 +746,6 @@ input, textarea, select{
     font-weight: 400;
 }
 
-.redes-sociais{
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center;
-    padding-left: 35px;
-}
-
 .redes-sociais a{
     height: 45px;
     width: 45px;
