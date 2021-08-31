@@ -750,6 +750,7 @@ input, textarea, select{
     display: -ms-flexbox;
     display: flex;
     text-align: center;
+    padding-left: 35px;
 }
 
 .contact .redes-sociais a{
@@ -760,7 +761,7 @@ input, textarea, select{
     text-align: center;
     line-height: 45px;
     color: #ffffff;
-    margin: 20px 0px 5px;
+    margin: 0 5px;
     border-radius: 50%;
     text-decoration: none;
     -webkit-transition: all 0.3 easy; 
