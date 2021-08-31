@@ -414,11 +414,11 @@ input, textarea, select{
     margin:0;
 }
 
-.sobre .sobre-conteudo .buttons{
+.sobre .buttons{
     margin-top:20px; 
 }
 
-.sobre .sobre-conteudo .buttons .btn{
+.sobre .buttons .btn{
     margin-right:15px; 
     margin-top: 10px ;
 }
