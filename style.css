@@ -361,30 +361,6 @@ input, textarea, select{
     line-height: 30px;
 }
 
-.home .intro .redes-sociais{
-    margin-top: 25px;
-}
-
-.home .intro .redes-sociais a{
-    height: 45px;
-    width: 45px;
-    background-color: var(--color-blue);
-    display: inline-block;
-    text-align: center;
-    line-height: 45px;
-    color: #ffffff;
-    margin: 0 5px;
-    border-radius: 50%;
-    text-decoration: none;
-    -webkit-transition: all 0.3 easy; 
-    transition: all 0.3 easy; 
-}
-
-/*obs.: Usei a animação no webkit tmb, porque ele é um ícone, */
-.home .intro .redes-sociais a:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
 /*FIM DA HOME*/
 
 /* PAGINA SOBRE */
@@ -747,7 +723,7 @@ input, textarea, select{
 }
 
 .contato .redes-sociais{
-    margin-top: 25px;
+    margin: 25px 25px 0px 25px;
 }
 
 .contato .redes-sociais a{
