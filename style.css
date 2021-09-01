@@ -414,15 +414,6 @@ input, textarea, select{
     margin:0;
 }
 
-.sobre .buttons{
-    margin-top:20px; 
-}
-
-.sobre .buttons .btn{
-    margin-right:15px; 
-    margin-top: 10px ;
-}
-
 .sobre .sobre-conteudo .skills{
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
