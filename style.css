@@ -5,7 +5,7 @@
 
 /* VARIAVÉIS DE COR*/
 :root {
-    --color-blue:#5abd04;
+    --color-blue:#0073f7;
     --color-text:#504e70;
     --color-title:#302e4d;
     --color-grey:#e3e3e3;
@@ -318,6 +318,8 @@ body{
     min-height: 100vh;
     display: -ms-flexbox;
     display: flex;
+    background-color: black;
+    text-color: #f5fcfc;
 }
 
 .home .intro{
