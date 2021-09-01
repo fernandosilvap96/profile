@@ -678,6 +678,15 @@ body{
     margin-bottom: 40px;
 }
 
+.contact .contact-info-item .perfil-link {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 2.2rem;
+  flex-wrap: wrap;
+}
+
 .contact .contact-info-item .icon{
     display: inline-block;
 }
