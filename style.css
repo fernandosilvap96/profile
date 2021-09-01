@@ -40,7 +40,7 @@ body{
     display: block;
     padding: 0 30px;
     position: fixed;
-    left: 270px;
+    left: 220px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -207,8 +207,8 @@ body{
 }
 
 .lateral .perfil img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 8px solid #ffffff;
 }
@@ -714,7 +714,7 @@ body{
 
 @media (max-width:1600px){
     .lateral {
-        width: 270px;
+        width: 220px;
     }
 
 }
@@ -748,7 +748,7 @@ body{
         left: 0;
     }
     .section.open{
-        left: 270;
+        left: 220;
     }
 
     .home .intro img{
