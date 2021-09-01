@@ -319,7 +319,6 @@ body{
     display: -ms-flexbox;
     display: flex;
     background-color: black;
-    text-color: #f5fcfc;
 }
 
 .home .intro{
@@ -336,7 +335,7 @@ body{
     font-size: 40px;
     font-family: 'Glory', sans-serif;
     font-weight: 700;
-    color: var(--color-title); 
+    color: #f5fcfc; 
     margin: 20px 0 5px; 
 }
 
@@ -344,7 +343,7 @@ body{
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: var(--color-text);  
+    color: #f5fcfc;  
     margin: 0;
     line-height: 30px;
 }
