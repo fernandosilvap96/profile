@@ -680,8 +680,8 @@ body{
 }
 
 .contact .contact-info-item {
-  font-size: 2rem;
-  text-shadow: 2px 2px 1px #1f1f1f;
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
 
@@ -790,7 +790,6 @@ body{
 }
 
 @media (max-width: 767px){
-    .contact .contact-form .col-6,
     .service .service-item-inner,
     .sobre .sobre-conteudo .educacao,
     .sobre .sobre-conteudo .experiencia, 
