@@ -683,7 +683,7 @@ body{
   font-size: 2rem;
   text-shadow: 1px 1px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
-  text-color: black;
+  font-color: black;
 }
 
 .contact-details:hover {
