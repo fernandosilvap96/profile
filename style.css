@@ -679,13 +679,13 @@ body{
   flex-wrap: wrap;
 }
 
-.contact .contact-info-item {
-  font-size: 3rem;
-  text-shadow: 1px 1px 1px #1f1f1f;
+.contact-details {
+  font-size: 2rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
 
-.contact .contact-info-item:hover {
+.contact-details:hover {
   transform: translateY(8px);
 }
 
