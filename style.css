@@ -681,7 +681,7 @@ body{
 
 .contact-details {
   font-size: 2rem;
-  text-shadow: 2px 2px 1px #1f1f1f;
+  text-shadow: 1px 1px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
 
