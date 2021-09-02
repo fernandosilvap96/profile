@@ -681,9 +681,9 @@ body{
 
 .contact-details {
   font-size: 2rem;
-  text-shadow: 1px 1px 1px #1f1f1f;
-  transition: transform 0.3s ease-out;
-  font-color: black;
+  text-shadow: 1px 1px 1px #00d4f0;
+  transition: transform 0.3s ease-out; 
+  color: #0073f7;
 }
 
 .contact-details:hover {
