@@ -4,6 +4,11 @@
   <title>Fernando</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tradução -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="js/tradutor.js"></script>
+  <link href="css/main.css" rel="stylesheet" />
+
    <!-- Template css Files -->
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
@@ -11,9 +16,30 @@
   <!-- Icones de contato --!>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
   crossorigin="anonymous"/>
+
+  <!--Tradução-->
+  <div id="google_translate_element"></div>
+  <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+
 </head>
 <body>
+  
+<!-- Tradução -->
+<div class="main">
+<div id="google_translate_element"></div>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<ul class="nav">
+<li><a href="javascript:;" class="pt" onclick="ChangeLang('pt')" title="Traduzir para portugu&ecirc;s"><img src="images/pt.gif" /></a></li>
+<li><a href="javascript:;" class="en" onclick="ChangeLang('en')" title="Translate to English"><img src="images/en.gif"  /></a></li>
+<li><a href="javascript:;" class="es" onclick="ChangeLang('es')" title="Traducir al espa&ntilde;ol"><img src="images/es.gif"  /></a></li>
+<li><a href="javascript:;" class="it" onclick="ChangeLang('it')" title="Traduci in italiano"><img src="images/it.png"  /></a></li>
+<li><a href="javascript:;" class="de" onclick="ChangeLang('de')" title="&Uuml;bersetzen in Deutsch"><img src="images/al.png"  /></a></li>
+<li><a href="javascript:;" class="fr" onclick="ChangeLang('fr')" title="Traduire en fran&ccedil;ais"><img src="images/fr.png"  /></a></li>
+</ul>
+<p>
 
+  
+  
     <!-- MAIN CONTAINER -->
     <div class="menu-lateral">
         <!-- LATERAL-->
@@ -430,9 +456,11 @@
             <!--FIM CONTATO-->
         </div>
     </div>
-
+                  
+                  
+</p>                  
+</div>
       <!--Add js-->
   <script src="script.js"></script>
-
 </body>
 </html>
