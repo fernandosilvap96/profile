@@ -63,7 +63,7 @@ words.forEach(word => {
 
 let currentWordIndex = 0;
 let maxWordIndex = words.length - 1;
-(words[currentWordIndex] as HTMLElement).style.opacity = "1";
+(words[currentWordIndex]).style.opacity = "1";
 
 let rotateText = () => {
   let currentWord = words[currentWordIndex];
@@ -76,7 +76,7 @@ let rotateText = () => {
     }, i * 80);
   });
   // reveal and rotate in letters of next word
-  (nextWord as HTMLElement).style.opacity = "1";
+  (nextWord).style.opacity = "1";
   Array.from(nextWord.children).forEach((letter, i) => {
     letter.className = "letter behind";
     setTimeout(() => {
