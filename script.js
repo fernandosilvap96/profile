@@ -46,7 +46,7 @@ function showSection(element){
 }
 
 
-//Titulo da pagina HOME
+//Texto dinamico da HOME
 
 class TextScramble {
   constructor(el) {
@@ -102,7 +102,7 @@ class TextScramble {
   }
 }
 
-//EXEMPLO DE TEXTO PARA APARECER NO HOME
+//Palavras para o texto dinamico
 
 const phrases = [
   'Fernando',
