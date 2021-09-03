@@ -318,22 +318,7 @@ body{
 
 
 
-.home .intro .texting{
-  height 100%
-  width 100%
-  justify-content center
-  align-items center
-  display flex
-}
-.home .intro .texting .text{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-weight 100
-  color: #f5fcfc;
-  font-size 28px
-  color #FAFAFA
-}
-.home .intro .dud {
+.dud {
   color #757575
 }
 
