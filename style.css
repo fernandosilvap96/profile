@@ -346,6 +346,7 @@ body{
     display: -ms-flexbox;
     display: flex;
     background-color: black;
+    color: white;
 }
 
 .home .intro{
