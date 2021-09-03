@@ -46,7 +46,6 @@ function showSection(element){
 }
 
 
-
 //Titulo da pagina HOME
 
 class TextScramble {
@@ -103,16 +102,13 @@ class TextScramble {
   }
 }
 
-
-//EXEMPLO DE TEXTO
+//EXEMPLO DE TEXTO PARA APARECER NO HOME
 
 const phrases = [
-  'Neo,',
-  'sooner or later',
-  'you\'re going to realize',
-  'just as I did',
-  'that there\'s a difference',
-  'between knowing the path',
+  'Fernando',
+  'Engenheiro Blockchain',
+  'Contratos Inteligentes',
+  'Dapps',
   'and walking the path'
 ]
 
@@ -128,10 +124,6 @@ const next = () => {
 }
 
 next()
-
-
-
-
 
 
 // Mini Menu responsivo
