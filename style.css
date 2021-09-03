@@ -338,14 +338,6 @@ body{
 
 }
 
-.home .intro h1{
-    font-size: 40px;
-    font-family: 'Glory', sans-serif;
-    font-weight: 700;
-    color: #f5fcfc; 
-    margin: 20px 0 5px; 
-}
-
 .home .intro p{
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
@@ -856,10 +848,6 @@ body{
 }
 
 @media (max-width: 410px){
-
-    .home .intro h1 {
-        font-size: 25px;
-    }
 
     .home .intro p {
         font-size: 15px;
