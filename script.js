@@ -51,7 +51,7 @@ function showSection(element){
 class TextScramble {
   constructor(el) {
     this.el = el
-    this.chars = '!<>-_\\/[]{}—=+*^?#________'
+    this.chars = '_*_*_*_*_*_'
     this.update = this.update.bind(this)
   }
   setText(newText) {
