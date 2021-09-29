@@ -1,3 +1,3 @@
 # profile
 Portfolio
-https://fernandosilvap96.github.io/profile/#sobre
+https://fernandosilvap96.github.io/profile/
