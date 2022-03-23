@@ -106,7 +106,7 @@ class TextScramble {
 
 const phrases = [
   'Fernando',
-  'Engenheiro Blockchain'
+  'Blockchain Developer'
 ]
 
 const el = document.querySelector('.text')
